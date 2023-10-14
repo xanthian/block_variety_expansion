@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.xanthian.block_variety_expansion.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FenceGateBlockMixin",
+    "PaneBlockMixin",
+    "WallBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

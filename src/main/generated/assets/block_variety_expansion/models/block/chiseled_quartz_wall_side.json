@@ -1,0 +1,6 @@
+{
+  "parent": "block_variety_expansion:block/template_wall_side",
+  "textures": {
+    "side": "minecraft:block/chiseled_quartz_block"
+  }
+}

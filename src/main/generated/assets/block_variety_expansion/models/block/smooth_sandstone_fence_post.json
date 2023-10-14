@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_post",
+  "textures": {
+    "side": "minecraft:block/sandstone_top",
+    "top": "minecraft:block/sandstone_top"
+  }
+}

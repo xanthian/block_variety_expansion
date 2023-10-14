@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/template_wall_post",
+  "textures": {
+    "side": "minecraft:block/purpur_pillar",
+    "top": "minecraft:block/purpur_pillar_top"
+  }
+}

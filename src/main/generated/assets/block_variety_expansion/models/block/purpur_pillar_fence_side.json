@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_side",
+  "textures": {
+    "side": "minecraft:block/purpur_pillar",
+    "top": "minecraft:block/purpur_pillar_top"
+  }
+}

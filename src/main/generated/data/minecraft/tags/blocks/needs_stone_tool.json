@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "block_variety_expansion:iron_fence",
+    "block_variety_expansion:lapis_fence",
+    "block_variety_expansion:iron_slab",
+    "block_variety_expansion:lapis_slab",
+    "block_variety_expansion:iron_stairs",
+    "block_variety_expansion:lapis_stairs",
+    "block_variety_expansion:iron_wall",
+    "block_variety_expansion:lapis_wall"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "block_variety_expansion:diamond_fence",
+    "block_variety_expansion:emerald_fence",
+    "block_variety_expansion:gold_fence",
+    "block_variety_expansion:diamond_slab",
+    "block_variety_expansion:emerald_slab",
+    "block_variety_expansion:gold_slab",
+    "block_variety_expansion:diamond_stairs",
+    "block_variety_expansion:emerald_stairs",
+    "block_variety_expansion:gold_stairs",
+    "block_variety_expansion:diamond_wall",
+    "block_variety_expansion:emerald_wall",
+    "block_variety_expansion:gold_wall"
+  ]
+}

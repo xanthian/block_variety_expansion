@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "block_variety_expansion:gold_fence",
+    "block_variety_expansion:gold_slab",
+    "block_variety_expansion:gold_stairs",
+    "block_variety_expansion:gold_wall"
+  ]
+}

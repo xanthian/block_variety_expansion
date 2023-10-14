@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/template_wall_post",
+  "textures": {
+    "side": "minecraft:block/packed_mud",
+    "top": "minecraft:block/packed_mud"
+  }
+}

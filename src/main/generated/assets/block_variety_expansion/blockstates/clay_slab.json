@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "block_variety_expansion:block/clay_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/clay"
+    },
+    "type=top": {
+      "model": "block_variety_expansion:block/clay_slab_top"
+    }
+  }
+}

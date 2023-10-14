@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "block_variety_expansion:amethyst_fence",
+    "block_variety_expansion:amethyst_slab",
+    "block_variety_expansion:amethyst_stairs",
+    "block_variety_expansion:amethyst_wall"
+  ]
+}

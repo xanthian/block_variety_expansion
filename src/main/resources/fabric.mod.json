@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "block_variety_expansion",
+	"version": "${version}",
+	"name": "Block Variety Expansion",
+	"description": "Adds Fences, Fence Gates, Stairs, Slabs & Walls for many of the vanilla blocks",
+	"authors": [
+		"Xanthian"
+	],
+	"contact": {
+		"homepage": "https://github.com/xanthian/block_variety_expansion"
+
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.xanthian.block_variety_expansion.Initialise"
+		],
+		"fabric-datagen": [
+			"net.xanthian.block_variety_expansion.DataGenerator"
+		]
+	},
+	"mixins": [
+		"block_variety_expansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

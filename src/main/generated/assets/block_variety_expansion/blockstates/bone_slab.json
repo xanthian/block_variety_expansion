@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "block_variety_expansion:block/bone_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bone_block"
+    },
+    "type=top": {
+      "model": "block_variety_expansion:block/bone_slab_top"
+    }
+  }
+}

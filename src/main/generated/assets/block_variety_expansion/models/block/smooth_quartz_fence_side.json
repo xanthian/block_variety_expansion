@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_side",
+  "textures": {
+    "side": "minecraft:block/quartz_block_top",
+    "top": "minecraft:block/quartz_block_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_side",
+  "textures": {
+    "side": "minecraft:block/polished_diorite",
+    "top": "minecraft:block/polished_diorite"
+  }
+}

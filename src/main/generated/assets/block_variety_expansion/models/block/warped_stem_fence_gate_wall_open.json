@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/template_fence_gate_wall_open",
+  "textures": {
+    "side": "minecraft:block/warped_stem",
+    "top": "minecraft:block/warped_stem_top"
+  }
+}

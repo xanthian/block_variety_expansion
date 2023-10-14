@@ -1,0 +1,6 @@
+{
+  "parent": "block_variety_expansion:block/template_wall_side_tall",
+  "textures": {
+    "side": "minecraft:block/stripped_birch_log"
+  }
+}

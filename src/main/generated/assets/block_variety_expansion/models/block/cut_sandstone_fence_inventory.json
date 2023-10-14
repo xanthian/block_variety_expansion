@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_inventory",
+  "textures": {
+    "side": "minecraft:block/cut_sandstone",
+    "top": "minecraft:block/cut_sandstone"
+  }
+}

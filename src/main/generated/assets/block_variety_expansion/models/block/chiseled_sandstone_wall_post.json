@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/template_wall_post",
+  "textures": {
+    "side": "minecraft:block/chiseled_sandstone",
+    "top": "minecraft:block/chiseled_sandstone"
+  }
+}

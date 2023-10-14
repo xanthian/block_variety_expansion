@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "block_variety_expansion:netherite_fence",
+    "block_variety_expansion:obsidian_fence",
+    "block_variety_expansion:crying_obsidian_fence",
+    "block_variety_expansion:netherite_slab",
+    "block_variety_expansion:obsidian_slab",
+    "block_variety_expansion:crying_obsidian_slab",
+    "block_variety_expansion:netherite_stairs",
+    "block_variety_expansion:obsidian_stairs",
+    "block_variety_expansion:crying_obsidian_stairs",
+    "block_variety_expansion:netherite_wall",
+    "block_variety_expansion:obsidian_wall",
+    "block_variety_expansion:crying_obsidian_wall"
+  ]
+}

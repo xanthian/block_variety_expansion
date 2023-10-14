@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:quartz_pillar"
+  },
+  "result": "block_variety_expansion:quartz_pillar_wall"
+}

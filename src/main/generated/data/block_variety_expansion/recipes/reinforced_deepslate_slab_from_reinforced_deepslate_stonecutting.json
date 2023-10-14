@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:reinforced_deepslate"
+  },
+  "result": "block_variety_expansion:reinforced_deepslate_slab"
+}

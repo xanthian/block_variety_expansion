@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_side",
+  "textures": {
+    "side": "minecraft:block/cracked_deepslate_tiles",
+    "top": "minecraft:block/cracked_deepslate_tiles"
+  }
+}

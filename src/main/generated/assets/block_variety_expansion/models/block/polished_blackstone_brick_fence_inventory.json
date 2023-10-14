@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/fence_inventory",
+  "textures": {
+    "side": "minecraft:block/polished_blackstone_bricks",
+    "top": "minecraft:block/polished_blackstone_bricks"
+  }
+}

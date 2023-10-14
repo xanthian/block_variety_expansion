@@ -1,0 +1,7 @@
+{
+  "parent": "block_variety_expansion:block/wall_inventory",
+  "textures": {
+    "side": "minecraft:block/quartz_bricks",
+    "top": "minecraft:block/quartz_bricks"
+  }
+}

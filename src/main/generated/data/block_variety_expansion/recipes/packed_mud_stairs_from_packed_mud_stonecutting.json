@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:packed_mud"
+  },
+  "result": "block_variety_expansion:packed_mud_stairs"
+}

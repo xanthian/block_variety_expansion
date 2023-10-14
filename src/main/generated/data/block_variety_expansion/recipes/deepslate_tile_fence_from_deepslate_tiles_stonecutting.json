@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:deepslate_tiles"
+  },
+  "result": "block_variety_expansion:deepslate_tile_fence"
+}
