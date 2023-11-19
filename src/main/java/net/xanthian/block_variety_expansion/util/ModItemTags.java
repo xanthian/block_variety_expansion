@@ -6,7 +6,6 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.xanthian.block_variety_expansion.Initialise;
 
-
 public class ModItemTags {
 
     public static final TagKey<Item> WOODEN_WALLS = register("wooden_walls");

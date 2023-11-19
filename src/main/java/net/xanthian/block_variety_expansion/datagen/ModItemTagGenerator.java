@@ -2,13 +2,11 @@ package net.xanthian.block_variety_expansion.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
-
 import net.xanthian.block_variety_expansion.Initialise;
 import net.xanthian.block_variety_expansion.block.custom.ModStoneBlockEnum;
 import net.xanthian.block_variety_expansion.block.custom.ModWoodBlockEnum;
@@ -43,7 +41,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
             getOrCreateTagBuilder(ModItemTags.WOODEN_WALLS).add(wall);
 
         }
-        String[] itemSuffixes = { "fence", "slab", "stairs", "wall" };
+        String[] itemSuffixes = {"fence", "slab", "stairs", "wall"};
         for (String suffix : itemSuffixes) {
 
             getOrCreateTagBuilder(ItemTags.NON_FLAMMABLE_WOOD).add(Registries.ITEM.get(new Identifier(Initialise.MOD_ID, "crimson_stem_" + suffix)));
@@ -78,7 +76,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
             }
 
         }
-        String[] blockSuffixes = { "fence", "slab", "stairs", "wall" };
+        String[] blockSuffixes = {"fence", "slab", "stairs", "wall"};
         for (String suffix : blockSuffixes) {
 
             getOrCreateTagBuilder(ItemTags.PIGLIN_LOVED).add(Registries.ITEM.get(new Identifier(Initialise.MOD_ID, "gold_" + suffix)));

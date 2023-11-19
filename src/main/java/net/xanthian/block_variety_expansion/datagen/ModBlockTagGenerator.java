@@ -2,12 +2,10 @@ package net.xanthian.block_variety_expansion.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-
 import net.minecraft.block.Block;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
-
 import net.minecraft.util.Identifier;
 import net.xanthian.block_variety_expansion.Initialise;
 import net.xanthian.block_variety_expansion.block.custom.ModStoneBlockEnum;
@@ -17,7 +15,7 @@ import net.xanthian.block_variety_expansion.util.ModBlockTags;
 import java.util.Locale;
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagGenerator  extends FabricTagProvider.BlockTagProvider {
+public class ModBlockTagGenerator extends FabricTagProvider.BlockTagProvider {
     public ModBlockTagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
@@ -34,16 +32,16 @@ public class ModBlockTagGenerator  extends FabricTagProvider.BlockTagProvider {
             Block stairs = Registries.BLOCK.get(new Identifier(Initialise.MOD_ID, woodName + "_stairs"));
             Block wall = Registries.BLOCK.get(new Identifier(Initialise.MOD_ID, woodName + "_wall"));
 
-                getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(fence);
+            getOrCreateTagBuilder(BlockTags.WOODEN_FENCES).add(fence);
 
-                getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(fence_gate);
+            getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(fence_gate);
 
-                getOrCreateTagBuilder(BlockTags.WOODEN_SLABS).add(slab);
+            getOrCreateTagBuilder(BlockTags.WOODEN_SLABS).add(slab);
 
-                getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS).add(stairs);
+            getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS).add(stairs);
 
-                getOrCreateTagBuilder(ModBlockTags.WOODEN_WALLS).add(wall);
-                getOrCreateTagBuilder(BlockTags.AXE_MINEABLE).add(wall);
+            getOrCreateTagBuilder(ModBlockTags.WOODEN_WALLS).add(wall);
+            getOrCreateTagBuilder(BlockTags.AXE_MINEABLE).add(wall);
 
         }
 
@@ -72,7 +70,7 @@ public class ModBlockTagGenerator  extends FabricTagProvider.BlockTagProvider {
             }
         }
 
-        String[] blockSuffixes = { "fence", "slab", "stairs", "wall" };
+        String[] blockSuffixes = {"fence", "slab", "stairs", "wall"};
         for (String suffix : blockSuffixes) {
 
             getOrCreateTagBuilder(BlockTags.CRYSTAL_SOUND_BLOCKS).add(Registries.BLOCK.get(new Identifier(Initialise.MOD_ID, "amethyst_" + suffix)));

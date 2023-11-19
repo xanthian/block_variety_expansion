@@ -3,7 +3,6 @@ package net.xanthian.block_variety_expansion.util;
 import net.minecraft.data.client.Model;
 import net.minecraft.data.client.TextureKey;
 import net.minecraft.util.Identifier;
-
 import net.xanthian.block_variety_expansion.Initialise;
 
 import java.util.Optional;

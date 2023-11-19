@@ -1,7 +1,6 @@
 package net.xanthian.block_variety_expansion.util;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
@@ -12,7 +11,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-
 import net.xanthian.block_variety_expansion.Initialise;
 import net.xanthian.block_variety_expansion.block.custom.ModStoneBlockEnum;
 import net.xanthian.block_variety_expansion.block.custom.ModWoodBlockEnum;
@@ -21,10 +19,6 @@ import java.util.Comparator;
 import java.util.Locale;
 
 public class ModCreativeTab {
-
-
-    public static void registerGroup() {
-    }
 
 
     public static final ItemGroup BVE = Registry.register(Registries.ITEM_GROUP,
@@ -43,6 +37,8 @@ public class ModCreativeTab {
                     })
                     .build());
 
+    public static void registerGroup() {
+    }
 
     public static void addToBuildingBlocks() {
         for (ModWoodBlockEnum woodType : ModWoodBlockEnum.values()) {

@@ -2,18 +2,16 @@ package net.xanthian.block_variety_expansion.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-
 import net.minecraft.block.Block;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-
 import net.xanthian.block_variety_expansion.Initialise;
 import net.xanthian.block_variety_expansion.block.custom.ModStoneBlockEnum;
 import net.xanthian.block_variety_expansion.block.custom.ModWoodBlockEnum;
 
 import java.util.Locale;
 
-public class ModLootTableGenerator  extends FabricBlockLootTableProvider {
+public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     public ModLootTableGenerator(FabricDataOutput dataOutput) {
         super(dataOutput);
     }

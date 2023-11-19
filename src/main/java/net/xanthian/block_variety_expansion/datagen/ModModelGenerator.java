@@ -2,12 +2,10 @@ package net.xanthian.block_variety_expansion.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-
 import net.minecraft.block.Block;
 import net.minecraft.data.client.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-
 import net.xanthian.block_variety_expansion.Initialise;
 import net.xanthian.block_variety_expansion.block.custom.ModStoneBlockEnum;
 import net.xanthian.block_variety_expansion.block.custom.ModWoodBlockEnum;
@@ -66,9 +64,9 @@ public class ModModelGenerator extends FabricModelProvider {
 
         if (stoneName.matches("purpur_pillar|deepslate|blackstone|quartz_pillar|chiseled_quartz|sandstone|red_sandstone")) {
             textureMap = ModTextureMap.normalTop(baseBlock);
-        } else if (stoneName.matches("smooth_quartz|smooth_sandstone|smooth_red_sandstone")){
+        } else if (stoneName.matches("smooth_quartz|smooth_sandstone|smooth_red_sandstone")) {
             textureMap = ModTextureMap.topTopTop(baseBlock);
-        } else if (stoneName.matches("(?<!_)basalt|polished_basalt|bone")){
+        } else if (stoneName.matches("(?<!_)basalt|polished_basalt|bone")) {
             textureMap = ModTextureMap.sideTopTop(baseBlock);
         } else if (stoneName.matches("reinforced_deepslate|quartz")) {
             textureMap = TextureMap.sideTopBottom(baseBlock);
